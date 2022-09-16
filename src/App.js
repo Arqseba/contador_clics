@@ -17,12 +17,7 @@ function App() {
 
   return (
     <div className="App">
-     <div className='logo-contenedor'>
-      <img 
-        className='logo'
-        src={logo}
-        alt='logo' />
-     </div>
+     
      <div className='contenedor-principal'>
 
       <Contador numClics = {numClics} />
